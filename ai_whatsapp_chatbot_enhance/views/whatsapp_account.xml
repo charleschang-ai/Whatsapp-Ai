@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="whatsapp_account_view_form_ai" model="ir.ui.view">
+        <field name="name">whatsapp.account.form.ai</field>
+        <field name="model">whatsapp.account</field>
+        <field name="inherit_id" ref="whatsapp.whatsapp_account_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet//div[@id='title']" position="after">
+                <group string="AI Customer Service Settings" name="ai_settings">
+                    <field name="enable_ai" widget="boolean_toggle"/>
+                    <field
+                        name="ai_agent_id"
+                        invisible="not enable_ai"
+                    />
+                </group>
+            </xpath>
+        </field>
+    </record>
+</odoo>
