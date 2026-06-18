@@ -2,7 +2,7 @@
     "name": "AI Chat WhatsApp Chatbot Odoo enhance | Open AI | AI RAG  | WhatsApp Cloud API | Odoo V19 Enterprise Edition",
     'version': '1.1',
     "category": "Discuss",
-    'price': 30,
+    'price': 100,
     'currency': 'USD',
     'summary': """Meta Whatsapp chat all in one integrated with the sale purchase accounting discuss modules. all in one whatsapp can help you to take the advantage of the whatsapp communication in current market
         Odoo WhatsApp Integration
